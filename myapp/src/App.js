@@ -1,11 +1,12 @@
-import Message from './Message';
+import * as React from 'react';
+import Button from '@mui/material/Button';
 
-const name = "hello...)";
 
-function App() {
-  return (
-    <Message name={name}/>
-  );
+function AppMui() {
+  return 
+    <div>
+      <Button variant="contained">Hello World</Button>
+    </div>;
 }
 
-export default App;
+export default AppMui;

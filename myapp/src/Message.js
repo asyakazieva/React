@@ -1,14 +1,12 @@
 import './App.css';
+import * as React from 'react';
+import Button from '@mui/material/Button';
 
-function Message(props) {
-    return (
-      <div className="App">
-        <header className="App-header">
-           Well, {props.name}
-        </header>
-      </div>
-    );
-  }
+
+function AppMui() {
+  return <Button variant="contained">Hello World</Button>;
+}
+
   
-  export default Message;
+  export default AppMui;
   
