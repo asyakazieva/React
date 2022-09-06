@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+ 
+exports[`Chat Empty message test 1`] = `
+<DocumentFragment>
+  <section>
+    <div>
+      <div>
+        <div>
+          <p
+            data-text="Test"
+          >
+            Test
+          </p>
+          <p
+            data-text="Author: <Test>"
+          >
+            Author: &lt;Test&gt;
+          </p>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1t0zgcr-MuiButtonBase-root-MuiButton-root"
+        style="width: 100px; color: rgba(50, 205, 50, 1);"
+        tabindex="0"
+        type="submit"
+      >
+        Send
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Chat Render with snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <div>
+      <div>
+        <div>
+          <p
+            data-text="Test"
+          >
+            Test
+          </p>
+          <p
+            data-text="Author: <Test>"
+          >
+            Author: &lt;Test&gt;
+          </p>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1t0zgcr-MuiButtonBase-root-MuiButton-root"
+        style="width: 100px; color: rgba(50, 205, 50, 1);"
+        tabindex="0"
+        type="submit"
+      >
+        Send
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;
