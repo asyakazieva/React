@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Render component 1`] = `
+<DocumentFragment>
+  <aside
+    class="sidebar"
+  >
+    <ul>
+      <li
+        class="sidebar_element"
+      >
+        <a 
+          class="link"
+          href="/profile"
+        >
+          Profile
+        </a>
+      </li>
+      <li
+        class="sidebar_element"
+      >
+        <a
+          class="link"
+          href="/chats"
+        >
+          Messages
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <main
+    class="main"
+  />
+</DocumentFragment>
+`;
